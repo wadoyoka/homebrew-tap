@@ -14,22 +14,22 @@ cask "nigopdf" do
   on_macos do
     on_intel do
       url "https://github.com/wadoyoka/nigopdf/releases/download/v#{version}/nigopdf_#{version}_darwin_amd64.tar.gz"
-      sha256 "eeda1a769803d0d0d2b3fb1a1cd028fcd03b2acb15813baf9b282045a0fa48c1"
+      sha256 "cf0863a51f1a4542d168e099085dd6fa0fed699cab3ae13852bc5f5d7220a911"
     end
     on_arm do
       url "https://github.com/wadoyoka/nigopdf/releases/download/v#{version}/nigopdf_#{version}_darwin_arm64.tar.gz"
-      sha256 "08ea584dd457ae0537514d56ec4f11049438266db7fe3fba18c1e75c5be45c2f"
+      sha256 "abb04b3252421f9d45dc56f6ab9d806a512cc4fbcef968eaab693c6881058f77"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/wadoyoka/nigopdf/releases/download/v#{version}/nigopdf_#{version}_linux_amd64.tar.gz"
-      sha256 "fdb5d49c97019fab027005eb05f74dce7b5f03d578646bd67799fcee00779d3d"
+      sha256 "e66b682a39042f1b4b835bf25b9049e553f5acf44230ee0fe5a9ed03b781d8a1"
     end
     on_arm do
       url "https://github.com/wadoyoka/nigopdf/releases/download/v#{version}/nigopdf_#{version}_linux_arm64.tar.gz"
-      sha256 "6c771e8fc12d4cfd6f1ca741192efbdc9871179968349a2fecc0638fc579946d"
+      sha256 "a0cbecf0e23f62200528f77a12a981390a48c23d430ae848fa333e8d0c9dc852"
     end
   end
 
