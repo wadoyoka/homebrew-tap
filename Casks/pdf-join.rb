@@ -14,22 +14,22 @@ cask "pdf-join" do
   on_macos do
     on_intel do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_darwin_amd64.tar.gz"
-      sha256 "e0e49abaa48c1bccc21eb919814ca8046fca3139a90702394444660d9d7e4b5d"
+      sha256 "662d4398f055191324b23581d412569a58e051cd913154c182ca2b2aa63d1da2"
     end
     on_arm do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_darwin_arm64.tar.gz"
-      sha256 "385820acecf33ac765f319d241aebf885d770bfe8983d0cdd53962d9f0fc8475"
+      sha256 "14fd444d3a22028ce846d9e96c2e4746a6b4854e235562496ebdb44702686555"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_linux_amd64.tar.gz"
-      sha256 "21d9f980e0c06de65267d62b3fc3fe0332aead37e7290f74fe1bebd0dc3b57b8"
+      sha256 "dd0672b23d4936eaaa2c0762f87af5ec4ec64ea55caa54ed3a4f1a6f4afdb068"
     end
     on_arm do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_linux_arm64.tar.gz"
-      sha256 "50bca92ad3fc94611ded588967c976bae67adc8c597480c18f3e97ba1a483ba6"
+      sha256 "2ea3c095681752050d6d8998d20251e50845f9876dd6068ccff053c3fb0748a5"
     end
   end
 
