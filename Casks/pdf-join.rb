@@ -3,7 +3,7 @@ cask "pdf-join" do
   name "pdf-join"
   desc "Merge PDF files in a directory"
   homepage "https://github.com/wadoyoka/pdf-join-go"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pdf-join" do
   on_macos do
     on_intel do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_darwin_amd64.tar.gz"
-      sha256 "662d4398f055191324b23581d412569a58e051cd913154c182ca2b2aa63d1da2"
+      sha256 "30f29fb973631f8a268a2ff02c0cbf3bdd020b75732af64d9fcd4bb67276b2d7"
     end
     on_arm do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_darwin_arm64.tar.gz"
-      sha256 "14fd444d3a22028ce846d9e96c2e4746a6b4854e235562496ebdb44702686555"
+      sha256 "356b0655dcae4b3279f04e18332a7eb7fc77639bccba063cebca031190518ddd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_linux_amd64.tar.gz"
-      sha256 "dd0672b23d4936eaaa2c0762f87af5ec4ec64ea55caa54ed3a4f1a6f4afdb068"
+      sha256 "0ccbfd5f44f882920b8853122be1b999335b03c8d8a9afefceabe5dd518302be"
     end
     on_arm do
       url "https://github.com/wadoyoka/pdf-join-go/releases/download/v#{version}/pdf-join-go_#{version}_linux_arm64.tar.gz"
-      sha256 "2ea3c095681752050d6d8998d20251e50845f9876dd6068ccff053c3fb0748a5"
+      sha256 "dde2fd3e05898634ae12be5e2c5b10e644f4fd83ca61c8a21e1a5dcf4a53236b"
     end
   end
 
